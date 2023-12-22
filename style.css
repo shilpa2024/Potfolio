@@ -1,0 +1,617 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/* <!-- ************************************First part**************************** --> */
+
+.dark-mode {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.light-dark {
+  position: absolute;
+  top: 6%;
+  right: 10%;
+
+}
+
+.full-up-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.profile img {
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+}
+
+.name-webDev p {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.icons-up {
+  display: flex;
+  gap: 10px;
+  font-size: large;
+}
+
+/* Icons Color */
+
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin {
+  color: #1145e1;
+}
+
+.fa-github {
+  color: #0b0b0b;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.number-wrk {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.projectss,
+.work {
+  margin-left: 12px;
+}
+
+.dw-whsap-msngr {
+  display: flex;
+  margin-top: 20px;
+}
+
+.whtap-msngr-prt a i {
+  /* border: none; */
+  border: 1px solid rgb(231, 220, 220);
+  background-color: transparent;
+  /* font-size: x-large; */
+  font-size: 18px;
+  border-color: #767573;
+}
+.fa-github{
+  color: rgb(114, 113, 113);
+}
+.fa-whatsapp {
+  color: #008000;
+}
+
+.fa-facebook-messenger {
+  color: #3d91d5;
+}
+
+@media screen and (max-width:348px) {
+  #wp-msngr-icons i {
+    font-size: 10px;
+  }
+}
+
+.dw-cv-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dw-cv-btn-a {
+  color: white;
+  background-color: rgb(44, 44, 148);
+  margin-right: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 7px 0;
+}
+
+.fa-circle-down {
+  color: #c9c9f6;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 348px) {
+
+  .dw-cv-btn-a,
+  .dw-cv-btn {
+    height: 30px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.whtap-msngr-prt i {
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 20px;
+  margin-top: 14px;
+  border-radius: 10%;
+  padding: 3px;
+  background-color: rgb(246, 244, 244);
+}
+
+
+/* Skills , Project toggle button secction */
+
+.p-s-big-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 18rem;
+  margin: 0 auto;
+  height: 3rem;
+  margin-top: 2rem;
+  background-color: #767573;
+  border-radius: 10px;
+}
+
+#skill-btn {
+  background-color: hsl(40, 1%, 46%);
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#p-s-big-skill-btn {
+  border-radius: 10px;
+}
+
+#project-btn,
+#skill-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border: none;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.project {
+  margin-right: 50px;
+  background-color: white;
+  padding: 8px 25px;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: black;
+}
+
+.pro-btn {
+  background-color: #ffff;
+}
+
+.skills {
+  margin-left: 20px;
+  color: black;
+}
+
+.fa-circle-check {
+  color: green;
+  margin-right: 7px;
+}
+
+/* <!-- ************************************First part**************************** --> */
+
+/* ******************************second part Skills ************************ */
+.skills-content-full-part {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10vw;
+  padding: 50px;
+}
+
+@media screen and (max-width:348px) {
+  .skills-content-full-part {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vw;
+    padding: 50px;
+  }
+
+}
+
+.full-frontend-prt,
+.full-backend-prt {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.frontend-part,
+.backend-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.frontend-part p,
+.backend-part p {
+  margin-left: 29px;
+}
+
+
+.frontend-content-part,
+.backend-content-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.backend-content-part,
+.frontend-content-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5vw;
+}
+
+.first-sec-front,
+.second-sec-front,
+.first-sec-backend,
+.second-sec-backend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* ******************************second part Skills ************************ */
+
+
+/* ***************************************************second part***************************** */
+.projects-imges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.projects-imges a::first-letter {
+  font-size: larger;
+  color: red;
+}
+
+.fst-row-img {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.scnd-row-img {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+@media screen and (max-width:348px) {
+  .img a {
+
+    font-size: 10px;
+  }
+
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  bottom: 1px solid white;
+  border-radius: 10px;
+}
+
+.img {
+  background-image: url(./project1.jpg);
+}
+
+.img-2 {
+  background-image: url(./project2.jpg);
+}
+
+.img-3 {
+  background-image: url(./project3.jpg);
+}
+
+.img-4 {
+  background-image: url(./project4.jpg);
+}
+
+.img-5 {
+  background-image: url(./project5.jpg);
+}
+
+.img,
+.img-2,
+.img-3,
+.img-4,
+.img-5 {
+  height: 200px;
+  width: 300px;
+  bottom: 1px solid white;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-size: contain;
+  position: relative;
+}
+
+@media screen and (max-width:348px) {
+
+  .img,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5 a {
+
+    font-size: 10px;
+  }
+}
+
+.img-5::before {
+  background-color: rgba(0, 0, 0, 0.37);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.img-4::before {
+  background-color: rgba(0, 0, 0, 0.37);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.img-3::before {
+  background-color: rgba(0, 0, 0, 0.37);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.img-2::before {
+  background-color: rgba(0, 0, 0, 0.37);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.img::before {
+  background-color: rgba(0, 0, 0, 0.37);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.img a {
+  position: absolute;
+  bottom: 12px;
+  left: 30px;
+  color: white;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+
+.clkBtn {
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  right: 5px;
+}
+
+.img a i {
+  margin-left: 10px;
+  border: 1px solid #eee;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: #555252;
+  margin-top: 8px;
+}
+
+.img-2 a {
+  position: absolute;
+  bottom: 12px;
+  left: 30px;
+  color: white;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+
+.img-2 a i {
+  margin-left: 10px;
+  border: 1px solid #eee;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: #555252;
+  margin-top: 8px;
+}
+
+.img-3 a {
+  position: absolute;
+  bottom: 12px;
+  left: 30px;
+  color: white;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+
+.img-3 a i {
+  margin-left: 10px;
+  border: 1px solid #eee;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: #555252;
+  margin-top: 8px;
+}
+
+.img-4 a {
+  position: absolute;
+  bottom: 12px;
+  left: 30px;
+  color: white;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+
+.img-4 a i {
+  margin-left: 10px;
+  border: 1px solid #eee;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: #555252;
+  margin-top: 8px;
+}
+
+.img-5 a {
+  position: absolute;
+  bottom: 12px;
+  left: 30px;
+  color: white;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+
+.img-5 a i {
+  margin-left: 10px;
+  border: 1px solid #eee;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: #555252;
+  margin-top: 8px;
+}
+
+.fa-link{
+  color: #ffffff;
+}
+
+/* ***************************************************second part***************************** */
+
+/* <!-- *******************third part*********************** --> */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+}
+
+/* <!-- *******************third part*********************** --> */
+
+/* Reponsive  *****************************************light dark mood ************************************************* --> */
+@media screen and (max-width: 357px) {
+
+  body {
+    background-position: fixed;
+    font-size: 10px;
+  }
+
+  .p-s-big-btn {
+    width: 250px;
+  }
+
+  .light-dark {
+    top: 10%;
+    right: 10%;
+  }
+
+  .full-up-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .dw-cv-btn-a {
+    width: 130px;
+    border-radius: 10px;
+  }
+
+  .fst-row-img,
+  .scnd-row-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: fixed;
+  }
+
+
+  footer {
+    font-size: 6px;
+  }
+}
+
+/* Reponsive  *****************************************light dark mood ************************************************* --> */
+
+
+#skils-full-prt-id {
+  display: none;
+}
+
+
+
+/* Hover and active */
+
+.fa-link:active{
+  font-size: small;
+  color: rgb(207, 207, 245);
+}
